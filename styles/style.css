@@ -1,0 +1,256 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+                        /* Cover style start */
+.cover{
+    background-image: url(../assets/images/banner/banner3.png);
+    height: 700px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-1{
+    text-align: center;
+    padding-right: 80px;
+    margin-left: 50%;
+    transform: -50%, -50%;
+    
+}
+.container-1-text{
+    padding-top: 250px;
+}
+    
+.container-1-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 600px;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.container-1-text p{
+    color: white;
+    text-align: right;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+ .btn{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+}
+
+.btn:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.btn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+                                /* Cover part End */
+                                /*  Second Container style*/
+.container-2{
+    display: flex;
+    justify-content: space-between;
+}
+.container-2-image{
+    position:relative;
+    width: 430px;
+    height: 600px;
+    left: 150px;
+    margin-top:60px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+.container-2-text{
+    margin-bottom: 100px;
+    margin-left: 30%;
+    margin-top: 100px;
+    
+}
+.container-2-title{
+    margin-bottom:10px;
+    font-weight:700px;
+    font-size: 38px;
+    text-align: center;
+    
+}
+.container-sub-text{
+    margin-right: 30%;
+    margin-bottom: 16px;
+    padding-left: 30px;
+    
+    
+}
+                                /* Second container End */
+                                /* Third Container start */
+ .container-3{
+            display: flex;
+            justify-content: space-between;
+            background-color: cornflowerblue;
+            height: 500px;
+            width: 70%;
+            margin-left: 15%;
+            border-radius: 10px;
+}
+.container-3-image{
+    position:relative;
+    width: 560px;
+    height: 500px;
+    left: 100px;
+}
+.container-3-text{
+    margin-top: 15%;
+    margin-left: 80px;                                   
+}
+.container-title{
+    margin-bottom:15px;
+    font-weight:700px;
+                                    
+}
+.container-3 p{
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 16px;                              
+    }
+                                /* My plans Section start */
+.my-plans{
+    margin-top:100px;
+}
+.my-plans-title{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+.plans-container{  
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.plans img{
+    margin-bottom: 20px;
+    
+
+}
+.container-sub-text a{
+    margin-top: 0 auto;
+}
+.container-sub-text img{
+    width: 30px;
+}
+.plan-title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.plan-type{
+    color: gray;
+}
+                                /* Plan section End */
+                                /* Gradient part Start */
+.gradient{
+    background-image: url(../assets/images/watch.png);
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    width:250vh;
+    margin:120px;
+    border-radius: 15px;
+}
+.gradient-container{
+    background: url(../assets/images/gradient1.png);
+    background-repeat: no-repeat;
+    opacity: .6;
+}
+.gradient-container h2{
+    color: white;
+    padding: 30px;
+    width: 400px;
+    font-weight: 700px;
+}
+.btn-2{
+    border: 0;
+    color:black;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.btn-2:hover {
+    background-color:rebeccapurple;
+}
+.btn-2:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+                                /* gradient End */
+                                /* Footer Part Start */
+footer{
+    display: flex;
+    background-color:#151414;
+    height: 400px;
+    color: #fff;
+
+}
+.footer-section{
+    margin: 80px;
+}
+.footer-title{
+    margin-bottom: 10px;
+}
+.footer-description{
+    color: aliceblue;
+    text-align: left;
+    margin-right: 60%;
+}
+.footer-description{
+   margin-bottom: 20px;
+}
+.footer-info{
+    margin: 80px;
+}
+.footer-info input{
+    color: white;
+    background-color: #151414;
+    padding:10px 20px;
+    margin-bottom: 10px;
+    border-radius:none;
+}
+.footer-info-title{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-icon img{
+    justify-content: center;
+    gap: 10px;
+}
+.btn-3{
+    border: 0;
+    color:black;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-3:hover {
+    background-color:rebeccapurple;
+}
+.btn-3:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+                                /* Footer Part End */
